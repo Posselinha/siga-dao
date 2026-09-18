@@ -1,12 +1,12 @@
 package siga;
 
 /**
- * Sistema de Gestão Acadêmica Simplificado (SIGA)
- * Técnicas de Programação II - Fatec de Porto Ferreira
- * Atividade prática da Aula 7 (Persistência e padrão DAO).
+ * Sistema de Gestão Acadêmica Simplificado (SIGA) Técnicas de Programação II -
+ * Fatec de Porto Ferreira Atividade prática da Aula 7 (Persistência e padrão
+ * DAO).
  *
- * Entidade de domínio. Está adequada e NÃO é alvo da refatoração:
- * serve de base para as operações de persistência.
+ * Entidade de domínio. Está adequada e NÃO é alvo da refatoração: serve de base
+ * para as operações de persistência.
  */
 public class Aluno {
 
@@ -20,9 +20,17 @@ public class Aluno {
         this.media = media;
     }
 
-    public String getNome()      { return nome; }
-    public String getMatricula() { return matricula; }
-    public double getMedia()     { return media; }
+    public String getNome() {
+        return nome;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public double getMedia() {
+        return media;
+    }
 
     @Override
     public String toString() {
