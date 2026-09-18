@@ -23,16 +23,20 @@ public class AlunoDAOBanco implements AlunoDAO {
 
     @Override
     public void remover(String matricula) {
-
+        // Não será utilizado, apenas adicionando por conta 
+        // da interface
     }
 
     @Override
     public void atualizar(Aluno aluno) {
-
+        // Não será utilizado, apenas adicionando por conta 
+        // da interface
     }
 
     @Override
     public Aluno buscarPorMatricula(String matricula) {
+        // Não será utilizado, apenas adicionando por conta 
+        // da interface
         return new Aluno("Aluno Teste", matricula, 10);
     }
 
