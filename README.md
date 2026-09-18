@@ -9,7 +9,10 @@ siga-dao/
         ├── Aluno.java             (entidade de domínio; pronta)
         ├── BancoSimulado.java     (simula o banco; representa a tecnologia)
         ├── ServicoMatricula.java  (contém os problemas a refatorar)
-        └── Main.java              (demonstra os problemas em execução)
+        ├── Main.java              (demonstra os problemas em execução)
+        ├── AlunoDAO.java          (Interface dos DAO)
+        ├── AlunoDAOBanco.java     (DAO referente ao banco ficticio)
+        └── AlunoDAOMemoria.java   (DAO referente aos testes em mémoria)
 ```
 
 ## Como compilar e executar
